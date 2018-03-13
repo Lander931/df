@@ -64,7 +64,6 @@ class DF
                 $item[5]
             );
         }
-        print_r($this->collection);
     }
 
     /**
