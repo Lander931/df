@@ -1,0 +1,19 @@
+{
+  "name": "lander931/df",
+  "description": "Report file system disk space usage ($ df)",
+  "keywords": ["df", "disk usage", "file system disk"],
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chekanov Dmitry",
+      "email": "lander931@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": { "Lander931\\DF\\": "src" }
+  }
+}
