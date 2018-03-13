@@ -24,7 +24,7 @@ class DFFileSystem
     /**
      * @var float
      */
-    public $percent_available;
+    public $percent_used;
     /**
      * @var string
      */
@@ -36,16 +36,16 @@ class DFFileSystem
      * @param integer|string $size
      * @param integer|string $used
      * @param integer|string $available
-     * @param float $percent_available
+     * @param float $percent_used
      * @param string $mounted_on
      */
-    public function __construct($file_system_name, $size, $used, $available, $percent_available, $mounted_on)
+    public function __construct($file_system_name, $size, $used, $available, $percent_used, $mounted_on)
     {
         $this->name = $file_system_name;
         $this->size = $size;
         $this->used = $used;
         $this->available = $available;
-        $this->percent_available = $percent_available;
+        $this->percent_used = $percent_used;
         $this->mounted_on = $mounted_on;
     }
 }
